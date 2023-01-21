@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main() 
+{    
+  int i, j, k, l;
+
+  i = sizeof(char);
+  j = sizeof(int);
+  k = sizeof(float);
+  l = sizeof(double);
+
+    cout << "Size of char: " << i << " byte" << endl;
+    cout << "Size of int: " << j << " bytes" << endl;
+    cout << "Size of float: " << k << " bytes" << endl;
+    cout << "Size of double: " << l << " bytes" << endl;
+
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{    
+  float i, j, k;
+
+  cout << "Enter two numbers: ";
+  cin >> i;
+  cin >> j;
+
+  k = i*j;
+
+  cout<<"Product ="<< k;
+}
